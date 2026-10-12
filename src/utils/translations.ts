@@ -1,0 +1,38 @@
+export type Language = 'es' | 'en';
+
+export const translations = {
+  es: {
+    title: 'AVIFconverter',
+    matrixTitle: 'CONFIGURACIÓN DE IMAGEN',
+    matrixSubtitle: 'Convierte imágenes PNG, JPEG, WebP y BMP a AVIF gratis y sin límites.',
+    uploadBtn: 'Cargar Archivo Local (PNG, JPEG, WebP)',
+    startBtn: 'INICIAR CONVERSIÓN',
+    downloadBtn: 'Descargar',
+    readyLabel: 'Listo',
+    footerCol1Title: 'Conversión AVIF y WebP de Alta Fidelidad',
+    footerCol1Text: 'Herramienta web gratuita para transformar archivos JPEG y PNG a formatos modernos sin pérdida cromática.',
+    col1Title: 'CONVERSIÓN AVIF Y WEBP DE ALTA FIDELIDAD',
+    col1Desc: 'Herramienta web gratuita para transformar imágenes JPG y PNG a formatos modernos de última generación. Conserva dimensiones exactas (1:1), perfiles de color y canales alfa (transparencia) sin distorsión ni pérdida visual.',
+    col2Title: 'IMPACTO EN CORE WEB VITALS & SEO',
+    col2Desc: 'Reduce el peso de tus archivos hasta un 85% para acelerar el Largest Contentful Paint (LCP). Optimiza la velocidad de carga móvil, ahorra ancho de banda en tu CDN y mejora el rastreo e indexación de Googlebot.',
+    col3Title: 'COMPRESIÓN INTELIGENTE Y SIN ARTEFACTOS',
+    col3Desc: 'Algoritmo adaptativo con protección de fidelidad perceptiva. Elimina la pixelación en degradados y detalles finos de interfaz, asegurando el archivo más ligero posible con la máxima nitidez visual.',
+  },
+  en: {
+    title: 'AVIFconverter',
+    matrixTitle: 'IMAGE SPECIFICATIONS',
+    matrixSubtitle: 'Convert PNG, JPEG, WebP, and BMP to AVIF for free with no limits.',
+    uploadBtn: 'Upload Local File (PNG, JPEG, WebP)',
+    startBtn: 'START CONVERSION',
+    downloadBtn: 'Download',
+    readyLabel: 'Ready',
+    footerCol1Title: 'High-Fidelity AVIF & WebP Conversion',
+    footerCol1Text: 'Free web utility to convert legacy JPEG and PNG files into modern formats preserving color accuracy.',
+    col1Title: 'HIGH-FIDELITY AVIF & WEBP CONVERSION',
+    col1Desc: 'Free web utility to convert legacy JPEG and PNG files into modern next-gen formats. Preserves exact 1:1 dimensions, color profiles, and alpha channels without distortion or visual loss.',
+    col2Title: 'CORE WEB VITALS & SEO IMPACT',
+    col2Desc: 'Reduce file weight by up to 85% to accelerate Largest Contentful Paint (LCP). Optimize mobile loading speed, save CDN bandwidth, and improve Googlebot crawling efficiency.',
+    col3Title: 'SMART ARTIFACT-FREE COMPRESSION',
+    col3Desc: 'Adaptive algorithm with perceptual fidelity safeguard. Eliminates banding in gradients and fine UI details, delivering optimal lightweight files with maximum visual sharpness.',
+  },
+};

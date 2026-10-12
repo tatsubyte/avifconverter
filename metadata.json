@@ -1,0 +1,6 @@
+{
+  "name": "OptiMatrix - Precision Image Engine",
+  "description": "Advanced image processing and optimization engine converting legacy web images to AVIF/WebP with mathematical codec precision, 1:1 dimensions, and zero pixelation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
